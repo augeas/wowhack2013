@@ -95,6 +95,19 @@ class docCorpus(object):
 			doc.show()
 			print
 	
+	def render(self):
+		rendered = {'docIDs':self.docs.keys()}
+		
+		rendered['freqTab'] = [ (word[3][0],word[1]) for word in self.freqTab ]
+		
+		clusters = []
+		for cluster in self.clusterSets[-1]: 
+			clusters.append( [ self.freqTab[word][3][0] for word in sorted(cluster.wordSet) ])
+			
+		rendered['clusters'] = clusters	
+		
+		return rendered
+	
 	# Moderately decorous frequency table.
 	def prettyTable(self):
 		print 'Word frequencies:'

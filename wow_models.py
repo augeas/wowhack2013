@@ -32,11 +32,23 @@ def getDocs(source_type=False):
 		#print sources
 
 	return docs
-		
+
+def pushClusters(corpus,source):
+	
+	rendered = corpus.render()
+	rendered['source'] = source
+	
+	conn = connection.Connection(mhost)
+	db = conn.wowhack
+	
+	cluster = collection.Collection(db,'cluster',create=True)
+	
+	newCluster = cluster.insert(rendered)
+
 corp = docCorpus(getDocs('timesonline'))
 counter = WordCount(corp,20)
 counter.map_reduce()
 corp.prettyTable()
 doKmeans(corp,False)
-
+pushClusters(corp,'timesonline')
 
