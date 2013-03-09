@@ -1,7 +1,18 @@
 import random
+import re
 
 from map_reduce import MapReduce
 from stemming.porter2 import stem
+
+try:
+	stopWords = []
+	stopWordFile = open('stopWords.txt','r')
+	for line in stopWordFile:
+		stopWords += line.split(',')
+	stopWordFile.close()	
+except:
+	print "Can't find stopWords.txt!"
+	stopWords = ['is', 'my', 'the','for','was', 'has', 'are', 'has', 'you', 'can', 'and', 'have', 'this', 'that', 'than', 'they', 'their', 'with', 'will', 'http']
 
 class doc(object):
 	def __init__(self,rawText,docID):
@@ -71,9 +82,7 @@ class docCorpus(object):
 	def __init__(self,items):
 				
 		self.docs = dict([ ( item[0],  doc(item[1],item[0]))  for item in items ])
-		
-		print self.docs
-		
+				
 		self.freqTab = [] # List of (wordString,wordFrequency,unstemmed) tuples, most frequent words first.
 
 		self.clusterSets = [] # Lists of clusters of increasing size.
@@ -95,8 +104,12 @@ class docCorpus(object):
 			w = int(w)
 		except:
 			w = 80
-		colWidth = 9 + max([len(wrd[0]) for wrd in self.freqTab]) 
+		colWidth = 9 + max([len(wrd[0]) for wrd in self.freqTab])
+		if not colWidth:
+			colWidth = 1
 		cols = w / colWidth
+		if not cols:
+			cols = 1
 		count = len(self.freqTab)
 		rows = (count / cols)
 		for row in range(rows):
@@ -113,15 +126,16 @@ class docCorpus(object):
 		clusters = sorted(self.clusterSets[index], key=lambda c: -len(c.docIDs))
 		for i,cluster in  enumerate(clusters):
 			print "Terms for cluster "+str(i)+", ("+str(len(cluster.docIDs))+" docs) mean centroid distance: "+str(cluster.meanDistance)
-			words =  [ self.freqTab[word][3][0] for word in sorted(cluster.wordSet) ]
+			words = [ self.freqTab[word][3][0] for word in sorted(cluster.wordSet) ]
 			print ' '.join(words) # Will these be vaguely relevant, or one of the aphorisms of Gertrude Stein? http://www.bartleby.com/140/
 			print
 
 class WordCount(MapReduce):
-	def __init__(self,corpus):		
+	def __init__(self,corpus,minFreq=1):		
         	MapReduce.__init__(self)	
 		self.corpus = corpus
 		self.data = corpus.docs
+		self.minFreq = minFreq
 	
 	# Return a list of tuples: (tweetID,tweetText)
 	def parse_fn(self, data):
@@ -129,8 +143,16 @@ class WordCount(MapReduce):
 	
 	# Recieves a tweet's ID and it's text. Returns a list of (word,tweedID) tuples.
 	def map_fn(self, key, val):
-		words = val.split()
-		return [ (stem(word), (1,key,word) ) for word in words ]
+		clean_text = re.sub('[#\.,:!*+?"\d]+',"",val.lower())
+		words = clean_text.split()
+		output = []	
+		
+		for word in words:
+			wrd = stem(word)
+			
+			if len(wrd) > 3 and wrd not in stopWords:
+				output.append((wrd, (1,key,word) ))
+		return output
 	
 	# Receive all the IDs of tweets containing a given word. Return the word, its frequency and a list of unique tweet IDs. 
 	def reduce_fn(self, word, values):
@@ -149,10 +171,10 @@ class WordCount(MapReduce):
 	# Build the corpus' frequency table and give each tweet the indices of its words.
 	def output_fn(self, output_list):
 		for i,word in enumerate(sorted(output_list,key = lambda wrd: -wrd[1])):
-			self.corpus.freqTab.append((word[0],word[1],word[2],word[3]))
-			for doc in word[2]:
-				self.corpus.docs[doc].addWord(i)
-
+			if word[1] > self.minFreq:
+				self.corpus.freqTab.append((word[0],word[1],word[2],word[3]))
+				for doc in word[2]:
+					self.corpus.docs[doc].addWord(i)
 
 class kMeansIter(MapReduce):
 	def __init__(self,corpus):
@@ -175,7 +197,7 @@ class kMeansIter(MapReduce):
 				minDistance = distance
 				nearestCluster = i
 		
-		tweet.centroidDist = minDistance
+		doc.centroidDist = minDistance
 		
 		return [(nearestCluster,key)]		
 	
@@ -287,7 +309,7 @@ class kMeansIter(MapReduce):
 		meanDist = sum([ doc.centroidDist for doc in self.corpus.docs.values() ]) / self.totalDocs
 		self.corpus.meanDistances[-1] = meanDist
 		
-		#print "K-means iteration for "+str(len(self.corpus.clusterSets[-1]))+" centroids. Mean distance to centroids: "+str(meanDist)		
+		print "K-means iteration for "+str(len(self.corpus.clusterSets[-1]))+" centroids. Mean distance to centroids: "+str(meanDist)		
 
 def doKmeans(corpus,quiet=True):
 	
@@ -346,14 +368,14 @@ def doKmeans(corpus,quiet=True):
 		print
 		corpus.showClusters(bestCount-2)
 
-f = open('egtext')
-txt = f.read()
-f.close()
-bits = txt.split('.')
-docs = [bit for bit in enumerate(bits)]
+#f = open('egtext')
+#txt = f.read()
+#f.close()
+#bits = txt.split('.')
+#docs = [bit for bit in enumerate(bits)]
 
-corp = docCorpus(docs)
-counter = WordCount(corp)
-counter.map_reduce()
-corp.prettyTable()
-doKmeans(corp,False)	
+#corp = docCorpus(docs)
+#counter = WordCount(corp)
+#counter.map_reduce()
+#corp.prettyTable()
+#doKmeans(corp,False)	

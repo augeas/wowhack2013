@@ -5,26 +5,38 @@ from clusterer import *
 
 mhost = 'wowhack.alexbilbie.com'
 
-conn = connection.Connection(mhost)
-db = conn.wowhack
 
-docs = []
+def getDocs(source_type=False):
 
-for src in db.sources.find():
-	text = re.sub('[\s]+',' ',src['text']).lower()
+	conn = connection.Connection(mhost)
+	db = conn.wowhack
+
+	docs = []
+	sources = []
+
+	if source_type:
+		cursor =  db.sources.find(source=source_type)
+	else:
+		cursor =  db.sources.find()
+
+	for src in cursor:
+		text = re.sub('[\s]+',' ',src['text']).lower()
 	
-	docs.append((src['_id'],text))
+		docs.append((src['_id'],text))
 	
-	print text
-	print
+		if src['source'] not in sources:
+			sources.append(src['source'])
+	
+		#print text
+		#print
+		#print sources
 
-corp = docCorpus(docs)
-counter = WordCount(corp,2)
-counter.map_reduce()
-corp.prettyTable()
-
-corp = docCorpus(docs)
-counter = WordCount(corp)
+	return docs
+		
+corp = docCorpus(getDocs('timesonline'))
+counter = WordCount(corp,20)
 counter.map_reduce()
 corp.prettyTable()
 doKmeans(corp,False)
+
+
