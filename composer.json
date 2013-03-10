@@ -1,0 +1,7 @@
+{
+	"require": {
+		"alexbilbie/mongoqb": "*",
+		"simplepie/simplepie": "*",
+		"anahkiasen/underscore-php": "*"
+	}
+}
