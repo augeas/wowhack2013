@@ -2,9 +2,9 @@ import re
 
 from pymongo import *
 from clusterer import *
+from shoveTweets import getTweets
 
 mhost = 'wowhack.alexbilbie.com'
-
 
 def getDocs(source_type=False):
 
@@ -41,14 +41,31 @@ def pushClusters(corpus,source):
 	conn = connection.Connection(mhost)
 	db = conn.wowhack
 	
-	cluster = collection.Collection(db,'cluster',create=True)
-	
+	try:
+		cluster = collection.Collection(db,'cluster',create=True)
+	except:
+		cluster = db.cluster
+		
 	newCluster = cluster.insert(rendered)
 
-corp = docCorpus(getDocs('timesonline'))
-counter = WordCount(corp,20)
-counter.map_reduce()
-corp.prettyTable()
-doKmeans(corp,False)
-pushClusters(corp,'timesonline')
+def pushTweets(term,count):
+
+	tweets = getTweets(term,count)
+	
+	conn = connection.Connection(mhost)
+	db = conn.wowhack	
+
+	for tweet in tweets:
+		thisTweet = {'_id':tweet[0], 'text':tweet[1], 'source':'twitter', 'meta':{'term':term}}
+		db.sources.insert(thisTweet)
+
+
+pushTweets('woman',1000)
+
+#corp = docCorpus(getDocs('twitter'))
+#counter = WordCount(corp,1)
+#counter.map_reduce()
+#corp.prettyTable()
+#doKmeans(corp,False)
+#pushClusters(corp,'twitter')
 
