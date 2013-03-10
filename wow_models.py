@@ -6,7 +6,8 @@ from shoveTweets import getTweets
 
 mhost = 'wowhack.alexbilbie.com'
 
-def getDocs(source_type=False):
+# Grab texts from mongo
+def getDocs(source_type=False,meta=False):
 
 	conn = connection.Connection(mhost)
 	db = conn.wowhack
@@ -15,7 +16,10 @@ def getDocs(source_type=False):
 	sources = []
 
 	if source_type:
-		cursor =  db.sources.find(source=source_type)
+		if meta:
+			cursor =  db.sources.find({'source':source_type, 'meta':meta})
+		else:	
+			cursor =  db.sources.find({'source':source_type})
 	else:
 		cursor =  db.sources.find()
 
@@ -33,6 +37,7 @@ def getDocs(source_type=False):
 
 	return docs
 
+# Extract clusters and word frequencies from a corpus and push it back to mongo
 def pushClusters(corpus,source):
 	
 	rendered = corpus.render()
@@ -42,12 +47,13 @@ def pushClusters(corpus,source):
 	db = conn.wowhack
 	
 	try:
-		cluster = collection.Collection(db,'cluster',create=True)
+		cluster = collection.Collection('cluster')
 	except:
 		cluster = db.cluster
 		
 	newCluster = cluster.insert(rendered)
 
+# Push tweet documents to mongo
 def pushTweets(term,count):
 
 	tweets = getTweets(term,count)
@@ -59,13 +65,22 @@ def pushTweets(term,count):
 		thisTweet = {'_id':tweet[0], 'text':tweet[1], 'source':'twitter', 'meta':{'term':term}}
 		db.sources.insert(thisTweet)
 
+# Grab texts from mongo, shove 'em back as clusters, optionally restricted to docs from a given source, generated from a given search-term.
+def getAndPushClusters(source,minCount=1,term=False):
+	if term:
+		meta = {'term':term}
+	else:
+		meta = False
+	corp = docCorpus(getDocs(source,meta))
+	counter = WordCount(corp,minCount)
+	counter.map_reduce()
+	corp.prettyTable()
+	doKmeans(corp,False)
+	pushClusters(corp,source)
 
-pushTweets('woman',1000)
+#getAndPushClusters('twitter',term='lady')
 
-#corp = docCorpus(getDocs('twitter'))
-#counter = WordCount(corp,1)
-#counter.map_reduce()
-#corp.prettyTable()
-#doKmeans(corp,False)
-#pushClusters(corp,'twitter')
+#pushTweets('lady',1000)
+
+
 
