@@ -8,7 +8,7 @@ $m = new MongoQB\Builder(array(
 
 if (isset($_POST['person_gender']))
 {
-   $m->where('person', $_POST['person_name'])->set('gender', $_POST['person_name'])->updateAll('people');
+   $m->where('person', $_POST['person_name'])->set('gender', $_POST['person_gender'])->updateAll('people');
 }
 
 if (isset($_POST['author_gender']))
