@@ -22,8 +22,10 @@ $author_count = $m->where(['author_gender' => ['$exists' => false]])->count('sou
 
 $mode = 'person';
 
+$offset = $_GET['offset'];
+
 if ($people_count > 0) {
-    $person = $m->where('gender', 'u')->limit(1)->get('people');
+    $person = $m->where('gender', 'u')->limit(1)->offset($offset)->get('people');
     $doc = $m->where('_id', $person[0]['doc'])->get('sources');
 
     $name = $person[0]['person'];
@@ -58,13 +60,15 @@ if ($people_count > 0) {
         <input type="hidden" value="<?=$doc[0]['_id']?>" name="doc_url">
         <select name="author_gender" id="author_gender">
             <option value="unknown" <?=($author_gender === 'unknown')?'selected':''?>>Unknown</option>
-            <option value="male" <?=($author_gender === 'unknown')?'male':''?>>Male</option>
-            <option value="female" <?=($author_gender === 'unknown')?'female':''?>>Female</option>
+            <option value="male" <?=($author_gender === 'male')?'selected':''?>>Male</option>
+            <option value="female" <?=($author_gender === 'female')?'selected':''?>>Female</option>
         </select>
     </p>
 
     <input type="submit" value="Update" name="update" id="update">
 
 </form>
+
+<input type="text" value="<?=$doc[0]['_id']?>" name="doc_url_plain">
 
 <iframe height="600px" width="100%" src="<?=$doc[0]['_id']?>"></iframe>
