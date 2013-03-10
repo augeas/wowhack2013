@@ -1,523 +1,625 @@
-twitter:female
+twitter: lady
 Word frequencies:
-0 female (120)           40 hurt (5)              80 down (2)              
-1 male (31)              41 pushing (5)           81 drugs (2)             
-2 multiple (28)          42 right (5)             82 drum (2)              
-3 vaginas (28)           43 think (5)             83 dudes (2)             
-4 actually (27)          44 want (5)              84 dumb (2)              
-5 duck (27)              45 @donte_thetruth (4)   85 eachother (2)         
-6 false (27)             46 looking (4)           86 even (2)              
-7 help (27)              47 make (4)              87 every (2)             
-8 passages (27)          48 males” (4)            88 feed (2)              
-9 forced (26)            49 only (4)              89 girl (2)              
-10 protect (26)          50 sexy (4)              90 great (2)             
-11 unwanted (26)         51 times (4)             91 hahaha (2)            
-12 @whattheffacts (23)   52 disrespect (3)        92 home (2)              
-13 know (16)             53 game (3)              93 judgment (2)          
-14 friend (12)           54 hustler (3)           94 kiss (2)              
-15 &amp; (7)             55 lmao (3)              95 lame (2)              
-16 @sheeratchettt (7)    56 love (3)              96 major (2)             
-17 bitch (7)             57 mean (3)              97 meeting (2)           
-18 hoping (7)            58 nigga' (3)            98 need (2)              
-19 mess (7)              59 plays (3)             99 porn (2)              
-20 name (7)              60 real (3)              100 pornstar (2)         
-21 nowdays (7)           61 sell (3)              101 present (2)          
-22 relationships (7)     62 shit (3)              102 seemed (2)           
-23 secretly (7)          63 women (3)             103 sexual (2)           
-24 away (6)              64 @alberttheaddict (2)  104 sloths (2)           
-25 feels (6)             65 @allabouttaurus (2)   105 still (2)            
-26 starts (6)            66 @female_weezy_ (2)    106 talking (2)          
-27 •alexis (6)           67 @fresh_boy_will (2)   107 taurus (2)           
-28 •breanna (6)          68 @xkiloz (2)           108 tension (2)          
-29 •brittany (6)         69 ability (2)           109 tonight (2)          
-30 •denise (6)           70 amount (2)            110 uneducated (2)       
-31 •destiny (6)          71 beautiful (2)         111 unreal (2)           
-32 •diamond (6)          72 better (2)            112 version (2)          
-33 •dominique (6)        73 blessed (2)           113 watch (2)            
-34 •ebony (6)            74 bodies (2)            114 well (2)             
-35 •jasmine (6)          75 cheating (2)          115 wish (2)             
-36 •nikki (6)            76 childish (2)          116 whitney (2)          
-37 •shanice (6)          77 combined (2)          117 work (2)             
-38 •shaniqua (6)         78 come (2)              118 world (2)            
-39 appreciate (5)        79 dick (2)              119 yall (2)             
-K-means iteration for 2 centroids. Mean distance to centroids: 0.757128015102
-K-means iteration for 2 centroids. Mean distance to centroids: 0.744985465981
-K-means iteration for 2 centroids. Mean distance to centroids: 0.7429921105
-K-means iteration for 2 centroids. Mean distance to centroids: 0.7429921105
+0 gaga (8)                38 stay (3)               76 indians (2)            
+1 baby (6)                39 team (3)               77 lake (2)               
+2 look (6)                40 tonight (3)            78 little (2)             
+3 love (6)                41 &amp; (2)              79 lucky (2)              
+4 making (6)              42 @asian_ladyy (2)       80 lunch (2)              
+5 proud (5)               43 @oh_bear (2)           81 meninas (2)            
+6 start (5)               44 @orderinda_court (2)   82 meninos (2)            
+7 state (5)               45 always (2)             83 mind (2)               
+8 talking (5)             46 antlers (2)            84 mustangs (2)           
+9 want (5)                47 atenção (2)            85 need (2)               
+10 bitch (4)              48 attitude (2)           86 nursery (2)            
+11 came (4)               49 bawl (2)               87 parce (2)              
+12 friend (4)             50 better (2)             88 play (2)               
+13 fucking (4)            51 blues (2)              89 ratchet (2)            
+14 girl (4)               52 buffs (2)              90 riding (2)             
+15 good (4)               53 business (2)           91 scenes (2)             
+16 know (4)               54 call (2)               92 sexy (2)               
+17 ladies (4)             55 chamam (2)             93 show (2)               
+18 much (4)               56 chatterley (2)         94 shut (2)               
+19 nice (4)               57 child (2)              95 soooooo (2)            
+20 night (4)              58 class” (2)             96 still (2)              
+21 shit (4)               59 clutch (2)             97 such (2)               
+22 watching (4)           60 company (2)            98 super (2)              
+23 vous (4)               61 cougars (2)            99 support (2)            
+24 back (3)               62 dance (2)              100 sure (2)              
+25 basketball (3)         63 enough (2)             101 sweet (2)             
+26 congrats (3)           64 escolhem (2)           102 takes (2)             
+27 crazy (3)              65 está (2)               103 thanks (2)            
+28 first (3)              66 feito (2)              104 think (2)             
+29 gives (3)              67 final (2)              105 tomorrow (2)          
+30 great (3)              68 flavor (2)             106 tournament (2)        
+31 imagine (3)            69 game (2)               107 vestida (2)           
+32 movie (3)              70 gonna (2)              108 voice (2)             
+33 next (3)               71 hair (2)               109 wait (2)              
+34 pretty (3)             72 hell (2)               110 whatoncedoesright (2) 
+35 season (3)             73 hide (2)               111 woman (2)             
+36 snow (3)               74 hoptown (2)            112 wonder (2)            
+37 someone (3)            75 house (2)              113 young (2)             
+K-means iteration for 2 centroids. Mean distance to centroids: 0.990777338603
+K-means iteration for 2 centroids. Mean distance to centroids: 0.978562822041
+K-means iteration for 2 centroids. Mean distance to centroids: 0.97783818436
+K-means iteration for 2 centroids. Mean distance to centroids: 0.97783818436
 
-K-means iteration for 3 centroids. Mean distance to centroids: 0.74511860985
-K-means iteration for 3 centroids. Mean distance to centroids: 0.745067137336
-K-means iteration for 3 centroids. Mean distance to centroids: 0.745067137336
+K-means iteration for 3 centroids. Mean distance to centroids: 0.979943064182
+K-means iteration for 3 centroids. Mean distance to centroids: 0.959549778156
+K-means iteration for 3 centroids. Mean distance to centroids: 0.959549778156
+
+K-means iteration for 4 centroids. Mean distance to centroids: 0.967061923584
+K-means iteration for 4 centroids. Mean distance to centroids: 0.951849936792
+K-means iteration for 4 centroids. Mean distance to centroids: 0.940113491936
+K-means iteration for 4 centroids. Mean distance to centroids: 0.94101424175
+
+K-means iteration for 5 centroids. Mean distance to centroids: 0.961887508627
+K-means iteration for 5 centroids. Mean distance to centroids: 0.945209767972
+K-means iteration for 5 centroids. Mean distance to centroids: 0.936003088273
+K-means iteration for 5 centroids. Mean distance to centroids: 0.911889912677
+K-means iteration for 5 centroids. Mean distance to centroids: 0.910487088448
+K-means iteration for 5 centroids. Mean distance to centroids: 0.910487088448
+
+K-means iteration for 6 centroids. Mean distance to centroids: 0.953740301566
+K-means iteration for 6 centroids. Mean distance to centroids: 0.92115576803
+K-means iteration for 6 centroids. Mean distance to centroids: 0.905780948859
+K-means iteration for 6 centroids. Mean distance to centroids: 0.895229812253
+K-means iteration for 6 centroids. Mean distance to centroids: 0.893543146404
+K-means iteration for 6 centroids. Mean distance to centroids: 0.893528507258
+K-means iteration for 6 centroids. Mean distance to centroids: 0.893528507258
+
+K-means iteration for 7 centroids. Mean distance to centroids: 0.951832907076
+K-means iteration for 7 centroids. Mean distance to centroids: 0.92663367157
+K-means iteration for 7 centroids. Mean distance to centroids: 0.907752781698
+K-means iteration for 7 centroids. Mean distance to centroids: 0.905081249814
+K-means iteration for 7 centroids. Mean distance to centroids: 0.904097149373
+K-means iteration for 7 centroids. Mean distance to centroids: 0.900879315417
+K-means iteration for 7 centroids. Mean distance to centroids: 0.900879315417
+
+Best results for 6 clusters.
+
+Terms for cluster 0, (64 docs) mean centroid distance: 0.962002840909
+gaga
+
+Terms for cluster 1, (17 docs) mean centroid distance: 0.845127748069
+look good ladies great season stay tonight hair
+
+Terms for cluster 2, (17 docs) mean centroid distance: 0.839307756126
+love proud state came much watching basketball pretty team @orderinda_court antlers cougars flavor soooooo support 👏🎉😊💘🏆
+
+Terms for cluster 3, (14 docs) mean centroid distance: 0.849632352941
+want bitch girl night attitude better child class” enough mind voice wait woman
+
+Terms for cluster 4, (13 docs) mean centroid distance: 0.819563769564
+start fucking shit crazy buffs hide mustangs shut still
+
+Terms for cluster 5, (13 docs) mean centroid distance: 0.811858974359
+baby making imagine snow bawl hoptown lake nursery play scenes such sweet whatoncedoesright
+
+twitter: female
+Word frequencies:
+0 male (31)              39 hurt (5)              78 down (2)              
+1 multiple (28)          40 pushing (5)           79 drugs (2)             
+2 vaginas (28)           41 right (5)             80 drum (2)              
+3 actually (27)          42 think (5)             81 dudes (2)             
+4 duck (27)              43 @donte_thetruth (4)   82 dumb (2)              
+5 false (27)             44 looking (4)           83 eachother (2)         
+6 help (27)              45 males” (4)            84 even (2)              
+7 passages (27)          46 make (4)              85 feed (2)              
+8 forced (26)            47 sexy (4)              86 girl (2)              
+9 protect (26)           48 times (4)             87 hahaha (2)            
+10 unwanted (26)         49 want (4)              88 great (2)             
+11 @whattheffacts (23)   50 disrespect (3)        89 home (2)              
+12 know (16)             51 game (3)              90 judgment (2)          
+13 friend (12)           52 hustler (3)           91 kiss (2)              
+14 &amp; (7)             53 lmao (3)              92 lame (2)              
+15 @sheeratchettt (7)    54 love (3)              93 major (2)             
+16 bitch (7)             55 mean (3)              94 meet (2)              
+17 hoping (7)            56 nigga' (3)            95 need (2)              
+18 mess (7)              57 plays (3)             96 porn (2)              
+19 nowdays (7)           58 real (3)              97 pornstar (2)          
+20 name (7)              59 sell (3)              98 present (2)           
+21 relationships (7)     60 shit (3)              99 seemed (2)            
+22 secretly (7)          61 women (3)             100 sexual (2)           
+23 away (6)              62 @alberttheaddict (2)  101 sloths (2)           
+24 feels (6)             63 @allabouttaurus (2)   102 still (2)            
+25 starts (6)            64 @female_weezy_ (2)    103 talking (2)          
+26 •alexis (6)           65 @fresh_boy_will (2)   104 taurus (2)           
+27 •breanna (6)          66 @xkiloz (2)           105 tension (2)          
+28 •destiny (6)          67 ability (2)           106 tonight (2)          
+29 •denise (6)           68 amount (2)            107 uneducated (2)       
+30 •brittany (6)         69 beautiful (2)         108 unreal (2)           
+31 •diamond (6)          70 better (2)            109 version (2)          
+32 •dominique (6)        71 blessed (2)           110 watch (2)            
+33 •ebony (6)            72 bodies (2)            111 well (2)             
+34 •jasmine (6)          73 cheating (2)          112 whitney (2)          
+35 •nikki (6)            74 childish (2)          113 wish (2)             
+36 •shanice (6)          75 combined (2)          114 work (2)             
+37 •shaniqua (6)         76 come (2)              115 world (2)            
+38 appreciate (5)        77 dick (2)              116 yall (2)             
+K-means iteration for 2 centroids. Mean distance to centroids: 0.797179252436
+K-means iteration for 2 centroids. Mean distance to centroids: 0.776821617704
+K-means iteration for 2 centroids. Mean distance to centroids: 0.776885168214
+
+K-means iteration for 3 centroids. Mean distance to centroids: 0.850907770314
+K-means iteration for 3 centroids. Mean distance to centroids: 0.836100885937
+K-means iteration for 3 centroids. Mean distance to centroids: 0.842993355572
 
 Best results for 2 clusters.
 
-Terms for cluster 0, (96 docs) mean centroid distance: 0.833854311198
-female know friend
+Terms for cluster 0, (111 docs) mean centroid distance: 0.792185253989
+male multiple vaginas actually duck false help passages forced protect unwanted @whattheffacts friend
 
-Terms for cluster 1, (33 docs) mean centroid distance: 0.478665708468
-female male multiple vaginas actually duck false help passages forced protect unwanted @whattheffacts know away feels starts appreciate hurt pushing males”
-
-twitter:feminism
-0 feminism (103)             68 anyway (2)                
-1 women (12)                 69 backlash (2)              
-2 need (10)                  70 barn (2)                  
-3 because (7)                71 birth (2)                 
-4 hate (7)                   72 bottom (2)                
-5 woman's (7)                73 burrow (2)                
-6 culture (6)                74 chan (2)                  
-7 facebook (6)               75 children (2)              
-8 sheryl (6)                 76 control (2)               
-9 again (5)                  77 denna (2)                 
-10 feminists (5)             78 difficult (2)             
-11 photo (5)                 79 dismissing (2)            
-12 post (5)                  80 equality (2)              
-13 remind (5)                81 ex-boyfriends (2)         
-14 sandberg (5)              82 expected (2)              
-15 tumblr (5)                83 follow (2)                
-16 international (4)         84 free (2)                  
-17 klitoris (4)              85 front (2)                 
-18 make (4)                  86 gender (2)                
-19 mean (4)                  87 girls (2)                 
-20 quotes (4)                88 goal (2)                  
-21 rape (4)                  89 good (2)                  
-22 rights (4)                90 gräv (2)                  
-23 shaming (4)               91 haha (2)                  
-24 slut (4)                  92 handikapp (2)             
-25 taught (4)                93 highly (2)                
-26 working (4)               94 homofest (2)              
-27 yeah (4)                  95 http//tco/wfmpqrhetn (2)  
-28 &amp; (3)                 96 issue (2)                 
-29 @anaginas (3)             97 know (2)                  
-30 @n_triton (3)             98 level (2)                 
-31 blog (3)                  99 limits (2)                
-32 christian (3)             100 line (2)                 
-33 feminspire (3)            101 lite (2)                 
-34 find (3)                  102 march (2)                
-35 friend (3)                103 mission (2)              
-36 fuck (3)                  104 naomi (2)                
-37 game (3)                  105 next (2)                 
-38 give (3)                  106 nästan (2)               
-39 heeejjaaaa (3)            107 pants (2)                
-40 here (3)                  108 part (2)                 
-41 honour (3)                109 photography (2)          
-42 hour (3)                  110 playing (2)              
-43 mensrights@reddit (3)     111 raises (2)               
-44 myskinnylife (3)          112 reading (2)              
-45 oxymoron (3)              113 remember (2)             
-46 rules (3)                 114 resurrected (2)          
-47 school (3)                115 role (2)                 
-48 state (3)                 116 seems (2)                
-49 successful (3)            117 sexual (2)               
-50 think (3)                 118 shit (2)                 
-51 thought (3)               119 smyger (2)               
-52 today (3)                 120 still (2)                
-53 took (3)                  121 takes (2)                
-54 wolf (3)                  122 thing (2)                
-55 (re)defining (2)          123 though (2)               
-56 -madi (2)                 124 till (2)                 
-57 @danahoule (2)            125 tron (2)                 
-58 @empajoh (2)              126 tv-fläsket (2)           
-59 @erikkain (2)             127 understand (2)           
-60 @everydaysexism (2)       128 video (2)                
-61 @mensrightsrdt (2)        129 wannabe-ism (2)          
-62 @msszeeusman (2)          130 wear (2)                 
-63 achievements (2)          131 weekend (2)              
-64 activism (2)              132 whining (2)              
-65 african (2)               133 wrote (2)                
-66 against (2)               134 åldringsvård (2)         
-67 answer (2)                135 återfår (2)              
-K-means iteration for 2 centroids. Mean distance to centroids: 0.767662545788
-K-means iteration for 2 centroids. Mean distance to centroids: 0.765823390319
-K-means iteration for 2 centroids. Mean distance to centroids: 0.753907916761
-K-means iteration for 2 centroids. Mean distance to centroids: 0.753907916761
-
-K-means iteration for 3 centroids. Mean distance to centroids: 0.792564385092
-K-means iteration for 3 centroids. Mean distance to centroids: 0.782525056465
-K-means iteration for 3 centroids. Mean distance to centroids: 0.782525056465
-
-Best results for 2 clusters.
-
-Terms for cluster 0, (94 docs) mean centroid distance: 0.759884176108
-feminism
-
-Terms for cluster 1, (10 docs) mean centroid distance: 0.697731078905
-feminism women culture feminists tumblr international rape rights shaming slut taught myskinnylife school barn front handikapp line nästan tron tv-fläsket åldringsvård återfår
-
-twitter:woman
+Terms for cluster 1, (18 docs) mean centroid distance: 0.682534639274
+know name away feels starts •alexis •breanna •destiny •denise •brittany •diamond •dominique •ebony •jasmine •nikki •shanice •shaniqua appreciate hurt pushing @donte_thetruth @fresh_boy_will
+           
+twitter: feminism
 Word frequencies:
-0 woman (274)               140 @itweetfacts (2)        
-1 loved (32)                141 @jaibrooks (2)          
-2 needs (26)                142 @jermhimselfish (2)     
-3 happy (24)                143 @justin_fenton (2)      
-4 every (17)                144 @marilyndiaries (2)     
-5 knows (15)                145 @mieshatate (2)         
-6 mothers (14)              146 @mugz_be_like (2)       
-7 down (13)                 147 @shansimone_ (2)        
-8 good (13)                 148 @uberfacts (2)          
-9 life (13)                 149 @youtube (2)            
-10 watching (12)            150 actions (2)             
-11 women's (12)             151 against (2)             
-12 &amp; (11)               152 aint (2)                
-13 black (11)               153 another (2)             
-14 beautiful (10)           154 around (2)              
-15 takes (10)               155 attention (2)           
-16 @wethinkforgirls (9)     156 bail (2)                
-17 heart (8)                157 ball (2)                
-18 playing (8)              158 believe (2)             
-19 strong (8)               159 belly (2)               
-20 wonderful (8)            160 birth (2)               
-21 you're (8)               161 'blonde (2)             
-22 alive (7)                162 blotter (2)             
-23 back (7)                 163 body (2)                
-24 longer (7)               164 bored (2)               
-25 much (7)                 165 boyfriend (2)           
-26 never (7)                166 brings (2)              
-27 real (7)                 167 called (2)              
-28 today (7)                168 came (2)                
-29 want (7)                 169 cause (2)               
-30 world (7)                170 celebrate (2)           
-31 always (6)               171 change (2)              
-32 because (6)              172 checklists (2)          
-33 birthday (6)             173 chocolate (2)           
-34 breaking (6)             174 considered (2)          
-35 come (6)                 175 cover (2)               
-36 make (6)                 176 deadly (2)              
-37 opposite (6)             177 deathly (2)             
-38 place (6)                178 definitely (2)          
-39 through (6)              179 discovers (2)           
-40 @emmapaige (5)           180 district (2)            
-41 @jo_age (5)              181 done (2)                
-42 @megkatrose (5)          182 each (2)                
-43 @mylesterrey (5)         183 enjoy (2)               
-44 best (5)                 184 facts (2)               
-45 better (5)               185 fall (2)                
-46 decided (5)              186 fells (2)               
-47 fuck (5)                 187 figure (2)              
-48 only (5)                 188 filth (2)               
-49 right (5)                189 find (2)                
-50 still (5)                190 follow (2)              
-51 treat (5)                191 food (2)                
-52 @grace_brookes (4)       192 free (2)                
-53 average (4)              193 front (2)               
-54 before (4)               194 full (2)                
-55 cancer (4)               195 funny (2)               
-56 cared (4)                196 future (2)              
-57 feel (4)                 197 gave (2)                
-58 friendly (4)             198 ghost (2)               
-59 frustrated (4)           199 gonna (2)               
-60 games (4)                200 goodbye (2)             
-61 girl (4)                 201 gora (2)                
-62 great (4)                202 grown (2)               
-63 guarantee (4)            203 head (2)                
-64 here (4)                 204 health (2)              
-65 hold (4)                 205 hear (2)                
-66 international (4)        206 http//tco/grgvprugk (2) 
-67 loyal (4)                207 himself (2)             
-68 mean (4)                 208 hundred (2)             
-69 nearly (4)               209 inch (2)                
-70 sexiest (4)              210 inside (2)              
-71 shit (4)                 211 instructions (2)        
-72 smile (4)                212 kazna (2)               
-73 spend (4)                213 leaves (2)              
-74 sweets (4)               214 long (2)                
-75 thank (4)                215 lord (2)                
-76 they're (4)              216 lose (2)                
-77 things (4)               217 made (2)                
-78 tonight (4)              218 magazines (2)           
-79 upset (4)                219 man’s (2)               
-80 wear (4)                 220 matter (2)              
-81 well (4)                 221 meet (2)                
-82 @msamberpriley (3)       222 message (2)             
-83 @natasha_nicole (3)      223 million (2)             
-84 @realflyboiquan (3)      224 momma's (2)             
-85 @zodiacfacts (3)         225 months (2)              
-86 allah (3)                226 nice (2)                
-87 amazing (3)              227 past (2)                
-88 arrested (3)             228 person (2)              
-89 behind (3)               229 pisces (2)              
-90 bless (3)                230 police (2)              
-91 casual (3)               231 power (2)               
-92 damn (3)                 232 pregnant (2)            
-93 different (3)            233 pretty (2)              
-94 dont (3)                 234 proud (2)               
-95 dreams (3)               235 queen (2)               
-96 even (3)                 236 recognize (2)           
-97 expensive (3)            237 recommended (2)         
-98 explain (3)              238 recorded (2)            
-99 face (3)                 239 road (2)                
-100 female (3)              240 scared (2)              
-101 fighting (3)            241 secret (2)              
-102 fire (3)                242 sent (2)                
-103 give (3)                243 sexy (2)                
-104 gotta (3)               244 shoots (2)              
-105 haha (3)                245 show (2)                
-106 herself (3)             246 sickness (2)            
-107 independent (3)         247 single (2)              
-108 inspire (3)             248 sleep (2)               
-109 instability (3)         249 someone (2)             
-110 'jokes' (3)             250 somewhere (2)           
-111 keep (3)                251 soul (2)                
-112 left (3)                252 southeastern (2)        
-113 look (3)                253 speaks (2)              
-114 lost (3)                254 spiritual (2)           
-115 mama's (3)              255 start (2)               
-116 music (3)               256 strongest (2)           
-117 named (3)               257 successful (2)          
-118 photo (3)               258 sure (2)                
-119 pray (3)                259 swear (2)               
-120 problem (3)             260 tears (2)               
-121 reason (3)              261 tall (2)                
-122 remarks (3)             262 thought (2)             
-123 seriously (3)           263 throught (2)            
-124 special (3)             264 throwing (2)            
-125 stops (3)               265 tomorrow (2)            
-126 such (3)                266 tour (2)                
-127 talking (3)             267 trust (2)               
-128 think (3)               268 type (2)                
-129 time (3)                269 upper (2)               
-130 told (3)                270 video (2)               
-131 true (3)                271 waiting (2)             
-132 turned (3)              272 weight (2)              
-133 tweet (3)               273 white (2)               
-134 very (3)                274 without (2)             
-135 vulnerable (3)          275 woods (2)               
-136 wanna (3)               276 written (2)             
-137 worth (3)               277 young (2)               
-138 wrong (3)               278 yourself (2)            
-139 -something (2)          279 zodiacpeople (2)        
-K-means iteration for 2 centroids. Mean distance to centroids: 0.812643930482
-K-means iteration for 2 centroids. Mean distance to centroids: 0.80927143588
-K-means iteration for 2 centroids. Mean distance to centroids: 0.809798548078
+0 women (12)                 69 backlash (2)              
+1 need (10)                  70 barn (2)                  
+2 'feminism' (7)             71 birth (2)                 
+3 hate (7)                   72 bottom (2)                
+4 woman's (7)                73 burrow (2)                
+5 culture (6)                74 chan (2)                  
+6 facebook (6)               75 children (2)              
+7 sheryl (6)                 76 control (2)               
+8 again (5)                  77 denna (2)                 
+9 feminists (5)              78 difficult (2)             
+10 photo (5)                 79 dismissing (2)            
+11 post (5)                  80 equality (2)              
+12 remind (5)                81 ex-boyfriends (2)         
+13 sandberg (5)              82 expected (2)              
+14 tumblr (5)                83 follow (2)                
+15 international (4)         84 free (2)                  
+16 klitoris (4)              85 front (2)                 
+17 make (4)                  86 gender (2)                
+18 mean (4)                  87 girls (2)                 
+19 quotes (4)                88 goal (2)                  
+20 rape (4)                  89 good (2)                  
+21 rights (4)                90 gräv (2)                  
+22 shaming (4)               91 haha (2)                  
+23 slut (4)                  92 handikapp (2)             
+24 taught (4)                93 highly (2)                
+25 working (4)               94 homofest (2)              
+26 yeah (4)                  95 http//tco/wfmpqrhetn (2)  
+27 &amp; (3)                 96 issue (2)                 
+28 @anaginas (3)             97 know (2)                  
+29 @n_triton (3)             98 level (2)                 
+30 blog (3)                  99 limits (2)                
+31 feminspire (3)            100 line (2)                 
+32 find (3)                  101 lite (2)                 
+33 friend (3)                102 march (2)                
+34 fuck (3)                  103 mission (2)              
+35 game (3)                  104 mostly (2)               
+36 give (3)                  105 naomi (2)                
+37 heeejjaaaa (3)            106 next (2)                 
+38 here (3)                  107 nästan (2)               
+39 honour (3)                108 pants (2)                
+40 hour (3)                  109 part (2)                 
+41 christian (3)             110 photography (2)          
+42 likes (3)                 111 playing (2)              
+43 mensrights@reddit (3)     112 raises (2)               
+44 myskinnylife (3)          113 reading (2)              
+45 oxymoron (3)              114 remember (2)             
+46 rules (3)                 115 resurrected (2)          
+47 school (3)                116 role (2)                 
+48 state (3)                 117 seems (2)                
+49 successful (3)            118 sexual (2)               
+50 think (3)                 119 shit (2)                 
+51 thought (3)               120 smyger (2)               
+52 today (3)                 121 still (2)                
+53 took (3)                  122 takes (2)                
+54 wolf (3)                  123 thing (2)                
+55 (re)defining (2)          124 though (2)               
+56 -madi (2)                 125 till (2)                 
+57 @danahoule (2)            126 tron (2)                 
+58 @empajoh (2)              127 tv-fläsket (2)           
+59 @erikkain (2)             128 understand (2)           
+60 @everydaysexism (2)       129 video (2)                
+61 @mensrightsrdt (2)        130 wannabe-ism (2)          
+62 @msszeeusman (2)          131 wear (2)                 
+63 achievements (2)          132 weekend (2)              
+64 activism (2)              133 whining (2)              
+65 african (2)               134 wrote (2)                
+66 against (2)               135 åldringsvård (2)         
+67 answer (2)                136 återfår (2)              
+68 anyway (2)                137 över (2)                 
+K-means iteration for 2 centroids. Mean distance to centroids: 0.967951839827
+K-means iteration for 2 centroids. Mean distance to centroids: 0.950759774728
+K-means iteration for 2 centroids. Mean distance to centroids: 0.955960374961
 
-K-means iteration for 3 centroids. Mean distance to centroids: 0.7868906016
-K-means iteration for 3 centroids. Mean distance to centroids: 0.781598013559
-K-means iteration for 3 centroids. Mean distance to centroids: 0.777103377771
-K-means iteration for 3 centroids. Mean distance to centroids: 0.776678178723
-K-means iteration for 3 centroids. Mean distance to centroids: 0.775971626773
-K-means iteration for 3 centroids. Mean distance to centroids: 0.775971626773
+K-means iteration for 3 centroids. Mean distance to centroids: 0.969230769231
+K-means iteration for 3 centroids. Mean distance to centroids: 0.936005207498
+K-means iteration for 3 centroids. Mean distance to centroids: 0.918070031433
+K-means iteration for 3 centroids. Mean distance to centroids: 0.916272620646
+K-means iteration for 3 centroids. Mean distance to centroids: 0.916272620646
 
-K-means iteration for 4 centroids. Mean distance to centroids: 0.78721450893
-K-means iteration for 4 centroids. Mean distance to centroids: 0.77765380367
-K-means iteration for 4 centroids. Mean distance to centroids: 0.777163780973
-K-means iteration for 4 centroids. Mean distance to centroids: 0.772343624119
-K-means iteration for 4 centroids. Mean distance to centroids: 0.771833618606
-K-means iteration for 4 centroids. Mean distance to centroids: 0.771833618606
+K-means iteration for 4 centroids. Mean distance to centroids: 0.941605465082
+K-means iteration for 4 centroids. Mean distance to centroids: 0.909697620136
+K-means iteration for 4 centroids. Mean distance to centroids: 0.902888740452
+K-means iteration for 4 centroids. Mean distance to centroids: 0.902888740452
 
-K-means iteration for 5 centroids. Mean distance to centroids: 0.779962435244
-K-means iteration for 5 centroids. Mean distance to centroids: 0.773071413641
-K-means iteration for 5 centroids. Mean distance to centroids: 0.773212900336
+K-means iteration for 5 centroids. Mean distance to centroids: 0.916450503513
+K-means iteration for 5 centroids. Mean distance to centroids: 0.890124803893
+K-means iteration for 5 centroids. Mean distance to centroids: 0.88754493914
+K-means iteration for 5 centroids. Mean distance to centroids: 0.88753014624
+K-means iteration for 5 centroids. Mean distance to centroids: 0.88753014624
+
+K-means iteration for 6 centroids. Mean distance to centroids: 0.891706183773
+K-means iteration for 6 centroids. Mean distance to centroids: 0.871083209355
+K-means iteration for 6 centroids. Mean distance to centroids: 0.859236375634
+K-means iteration for 6 centroids. Mean distance to centroids: 0.856838241841
+K-means iteration for 6 centroids. Mean distance to centroids: 0.858555395521
+
+K-means iteration for 7 centroids. Mean distance to centroids: 0.902040598291
+K-means iteration for 7 centroids. Mean distance to centroids: 0.865208539757
+K-means iteration for 7 centroids. Mean distance to centroids: 0.855721428854
+K-means iteration for 7 centroids. Mean distance to centroids: 0.852350613331
+K-means iteration for 7 centroids. Mean distance to centroids: 0.852350613331
+
+K-means iteration for 8 centroids. Mean distance to centroids: 0.871338842085
+K-means iteration for 8 centroids. Mean distance to centroids: 0.851516099817
+K-means iteration for 8 centroids. Mean distance to centroids: 0.8263136634
+K-means iteration for 8 centroids. Mean distance to centroids: 0.824408249033
+K-means iteration for 8 centroids. Mean distance to centroids: 0.820615962887
+K-means iteration for 8 centroids. Mean distance to centroids: 0.822396851525
+
+K-means iteration for 9 centroids. Mean distance to centroids: 0.881607975358
+K-means iteration for 9 centroids. Mean distance to centroids: 0.843792601241
+K-means iteration for 9 centroids. Mean distance to centroids: 0.832361963078
+K-means iteration for 9 centroids. Mean distance to centroids: 0.829076919903
+K-means iteration for 9 centroids. Mean distance to centroids: 0.828765439613
+K-means iteration for 9 centroids. Mean distance to centroids: 0.828320282918
+K-means iteration for 9 centroids. Mean distance to centroids: 0.828320282918
+
+Best results for 8 clusters.
+
+Terms for cluster 0, (36 docs) mean centroid distance: 0.892781031103
+women 'feminism' culture tumblr international rape rights shaming slut taught working
+
+Terms for cluster 1, (13 docs) mean centroid distance: 0.833321924646
+culture post blog find here honour christian oxymoron today (re)defining @danahoule @msszeeusman african against backlash bottom burrow follow good http//tco/wfmpqrhetn know march mostly reading remember resurrected wrote
+
+Terms for cluster 2, (13 docs) mean centroid distance: 0.806682206682
+need woman's make @n_triton fuck give till weekend
+
+Terms for cluster 3, (11 docs) mean centroid distance: 0.770941558442
+hate facebook sheryl feminists sandberg mensrights@reddit successful @everydaysexism @mensrightsrdt chan equality issue mission
+
+Terms for cluster 4, (9 docs) mean centroid distance: 0.728395061728
+women need again photo remind klitoris quotes yeah feminspire denna haha homofest lite pants photography smyger wear
+
+Terms for cluster 5, (9 docs) mean centroid distance: 0.79012345679
+mean friend rules wolf answer barn ex-boyfriends girls handikapp limits naomi nästan takes tron tv-fläsket åldringsvård återfår
+
+Terms for cluster 6, (7 docs) mean centroid distance: 0.755102040816
+need 'feminism' remind friend game give likes think thought took @erikkain anyway dismissing girls highly level next shit video wannabe-ism
+
+Terms for cluster 7, (6 docs) mean centroid distance: 0.772727272727
+game wolf -madi dismissing gender playing role sexual understand whining
+
+twitter: women
+0 women's (45)                  82 @keeprich_ (2)               
+1 international (25)            83 @lilakeys (2)                
+2 happy (21)                    84 @momsandbrands (2)           
+3 ladies (15)                   85 @ndpnetworking (2)           
+4 dayhello (14)                 86 @thefunnysexist (2)          
+5 months💏 (14)                  87 @wf_women (2)                
+6 @justinbieber (12)            88 @zevia (2)                   
+7 real (11)                     89 abuse (2)                    
+8 want (11)                     90 alternative (2)              
+9 loving (10)                   91 amendment (2)                
+10 &amp; (9)                    92 asian (2)                    
+11 gemini (8)                   93 attack (2)                   
+12 great (8)                    94 attracted (2)                
+13 true (8)                     95 badminton (2)                
+14 word (8)                     96 before (2)                   
+15 beautiful (7)                97 best (2)                     
+16 complicated (7)              98 black (2)                    
+17 first (7)                    99 body (2)                     
+18 heaven (7)                   100 brimming (2)                
+19 met💑 (7)                     101 called (2)                  
+20 months💑 (7)                  102 causing (2)                 
+21 prefer (7)                   103 change (2)                  
+22 something (7)                104 clubs (2)                   
+23 years❤ (7)                   105 conference (2)              
+24 years👪 (7)                   106 confidence (2)              
+25 years👴👵 (7)                  107 cricket (2)                 
+26 years💏💍 (7)                  108 dagenham (2)                
+27 year👫💕 (7)                   109 dealt (2)                   
+28 @thedailygemini (6)          110 describe (2)                
+29 appear (6)                   111 destroy (2)                 
+30 basketball (6)               112 diabetics (2)               
+31 emotions (6)                 113 empowers (2)                
+32 hide (6)                     114 fail (2)                    
+33 life (6)                     115 fashion (2)                 
+34 nice (6)                     116 feminists (2)               
+35 outsiders (6)                117 figures (2)                 
+36 rights (6)                   118 giving (2)                  
+37 things (6)                   119 golf (2)                    
+38 @pantie_dropper (5)          120 half (2)                    
+39 come (5)                     121 head (2)                    
+40 russiancultureandcuisine (5) 122 hard (2)                    
+41 term (5)                     123 heart (2)                   
+42 amazing (4)                  124 help (2)                    
+43 celebrations (4)             125 husband (2)                 
+44 derogatory (4)               126 india (2)                   
+45 good (4)                     127 latest (2)                  
+46 here (4)                     128 leaf (2)                    
+47 make (4)                     129 likes (2)                   
+48 originally (4)               130 many (2)                    
+49 re-tweets (4)                131 meets (2)                   
+50 takes (4)                    132 molest (2)                  
+51 tournament (4)               133 momsandbrands (2)           
+52 virgos (4)                   134 multi-pronged (2)           
+53 without (4)                  135 name (2)                    
+54 womensday (4)                136 news (2)                    
+55 world (4)                    137 never (2)                   
+56 “douchebag” (4)              138 night (2)                   
+57 @bornready_ (3)              139 palestine (2)               
+58 @politicususa (3)            140 perverted (2)               
+59 @uberfacts (3)               141 play (2)                    
+60 appreciated (3)              142 prevent (2)                 
+61 back (3)                     143 random (2)                  
+62 become (3)                   144 relationship (2)            
+63 inspire (3)                  145 seen (2)                    
+64 know (3)                     146 sends (2)                   
+65 made (3)                     147 sexy (2)                    
+66 mothers (3)                  148 shit (2)                    
+67 movie (3)                    149 shot (2)                    
+68 national (3)                 150 shows (2)                   
+69 need (3)                     151 single (2)                  
+70 pregnant (3)                 152 stevia (2)                  
+71 russian (3)                  153 still (2)                   
+72 stand (3)                    154 strong (2)                  
+73 talk (3)                     155 sweetened (2)               
+74 team (3)                     156 syria (2)                   
+75 thanks (3)                   157 those (2)                   
+76 thick (3)                    158 tonight (2)                 
+77 think (3)                    159 truly (2)                   
+78 video (3)                    160 vote (2)                    
+79 work (3)                     161 welcome (2)                 
+80 &lt; (2)                     162 white (2)                   
+81 @alekagutzmore (2)           163 young (2)                   
+K-means iteration for 2 centroids. Mean distance to centroids: 0.909381007305
+K-means iteration for 2 centroids. Mean distance to centroids: 0.870036561824
+K-means iteration for 2 centroids. Mean distance to centroids: 0.865394943691
+K-means iteration for 2 centroids. Mean distance to centroids: 0.865394943691
+
+K-means iteration for 3 centroids. Mean distance to centroids: 0.871218661371
+K-means iteration for 3 centroids. Mean distance to centroids: 0.853979903397
+K-means iteration for 3 centroids. Mean distance to centroids: 0.85285117918
+K-means iteration for 3 centroids. Mean distance to centroids: 0.852536053129
+K-means iteration for 3 centroids. Mean distance to centroids: 0.852536053129
+
+K-means iteration for 4 centroids. Mean distance to centroids: 0.862952695926
+K-means iteration for 4 centroids. Mean distance to centroids: 0.823834052998
+K-means iteration for 4 centroids. Mean distance to centroids: 0.824570801686
+
+K-means iteration for 5 centroids. Mean distance to centroids: 0.871684067566
+K-means iteration for 5 centroids. Mean distance to centroids: 0.821645976413
+K-means iteration for 5 centroids. Mean distance to centroids: 0.823303864471
+
+K-means iteration for 6 centroids. Mean distance to centroids: 0.855039875583
+K-means iteration for 6 centroids. Mean distance to centroids: 0.839721273163
+K-means iteration for 6 centroids. Mean distance to centroids: 0.832337307139
+K-means iteration for 6 centroids. Mean distance to centroids: 0.799399055193
+K-means iteration for 6 centroids. Mean distance to centroids: 0.79819525178
+K-means iteration for 6 centroids. Mean distance to centroids: 0.798395227423
+
+K-means iteration for 7 centroids. Mean distance to centroids: 0.82825479555
+K-means iteration for 7 centroids. Mean distance to centroids: 0.80232943712
+K-means iteration for 7 centroids. Mean distance to centroids: 0.786311573674
+K-means iteration for 7 centroids. Mean distance to centroids: 0.788461491265
+
+K-means iteration for 8 centroids. Mean distance to centroids: 0.825838166309
+K-means iteration for 8 centroids. Mean distance to centroids: 0.787982487045
+K-means iteration for 8 centroids. Mean distance to centroids: 0.777177016065
+K-means iteration for 8 centroids. Mean distance to centroids: 0.782440500431
+
+K-means iteration for 9 centroids. Mean distance to centroids: 0.84661825882
+K-means iteration for 9 centroids. Mean distance to centroids: 0.803454963433
+K-means iteration for 9 centroids. Mean distance to centroids: 0.799415685777
+K-means iteration for 9 centroids. Mean distance to centroids: 0.796919839555
+K-means iteration for 9 centroids. Mean distance to centroids: 0.796849811543
+K-means iteration for 9 centroids. Mean distance to centroids: 0.796849811543
+
+Best results for 8 clusters.
+
+Terms for cluster 0, (36 docs) mean centroid distance: 0.558837381754
+women's international happy ladies dayhello @justinbieber
+
+Terms for cluster 1, (32 docs) mean centroid distance: 1.0
+
+
+Terms for cluster 2, (23 docs) mean centroid distance: 0.8292301901
+women's &amp; basketball here tournament national stand team
+
+Terms for cluster 3, (18 docs) mean centroid distance: 0.754778149076
+gemini true complicated prefer @thedailygemini appear emotions hide outsiders come make virgos @bornready_ before best dealt 😳“@purebeauti
+
+Terms for cluster 4, (17 docs) mean centroid distance: 0.714971753511
+happy months💏 real want loving first heaven met💑 months💑 something years❤ years👪 years👴👵 years💏💍 year👫💕 life @pantie_dropper without know mothers @keeprich_ @thefunnysexist brimming confidence destroy
+
+Terms for cluster 5, (16 docs) mean centroid distance: 0.811110764236
+great beautiful life russiancultureandcuisine re-tweets appreciated russian clubs fashion strong
+
+Terms for cluster 6, (16 docs) mean centroid distance: 0.873102393782
+great nice things womensday world pregnant work @lilakeys @momsandbrands @zevia alternative diabetics empowers head leaf momsandbrands perverted sends shows stevia sweetened welcome
+
+Terms for cluster 7, (12 docs) mean centroid distance: 0.761375661376
+word term derogatory originally “douchebag” @uberfacts made think describe giving seen vote
+
+twitter: woman
+Word frequencies:
+0 loved (32)                138 @justin_fenton (2)      
+1 needs (26)                139 @marilyndiaries (2)     
+2 happy (24)                140 @mieshatate (2)         
+3 woman's (16)              141 @mugz_be_like (2)       
+4 knows (15)                142 @shansimone_ (2)        
+5 mothers (14)              143 @uberfacts (2)          
+6 down (13)                 144 @youtube (2)            
+7 good (13)                 145 actions (2)             
+8 life (13)                 146 against (2)             
+9 watching (12)             147 aint (2)                
+10 women's (12)             148 another (2)             
+11 &amp; (11)               149 around (2)              
+12 black (11)               150 attention (2)           
+13 beautiful (10)           151 bail (2)                
+14 takes (10)               152 ball (2)                
+15 @wethinkforgirls (9)     153 believe (2)             
+16 heart (8)                154 belly (2)               
+17 playing (8)              155 birth (2)               
+18 strong (8)               156 'blonde (2)             
+19 wonderful (8)            157 blotter (2)             
+20 alive (7)                158 body (2)                
+21 back (7)                 159 bored (2)               
+22 longer (7)               160 boyfriend (2)           
+23 much (7)                 161 brings (2)              
+24 never (7)                162 called (2)              
+25 real (7)                 163 came (2)                
+26 today (7)                164 cause (2)               
+27 world (7)                165 celebrate (2)           
+28 always (6)               166 change (2)              
+29 birthday (6)             167 checklists (2)          
+30 breaking (6)             168 chocolate (2)           
+31 come (6)                 169 considered (2)          
+32 make (6)                 170 cover (2)               
+33 opposite (6)             171 deadly (2)              
+34 place (6)                172 deathly (2)             
+35 through (6)              173 definitely (2)          
+36 want (6)                 174 discovers (2)           
+37 @emmapaige (5)           175 district (2)            
+38 @jo_age (5)              176 done (2)                
+39 @megkatrose (5)          177 each (2)                
+40 @mylesterrey (5)         178 enjoy (2)               
+41 best (5)                 179 facts (2)               
+42 better (5)               180 fall (2)                
+43 decided (5)              181 fells (2)               
+44 fuck (5)                 182 figure (2)              
+45 right (5)                183 filth (2)               
+46 still (5)                184 find (2)                
+47 treat (5)                185 follow (2)              
+48 @grace_brookes (4)       186 food (2)                
+49 average (4)              187 free (2)                
+50 before (4)               188 front (2)               
+51 cancer (4)               189 funny (2)               
+52 cared (4)                190 full (2)                
+53 feel (4)                 191 future (2)              
+54 friendly (4)             192 gave (2)                
+55 frustrated (4)           193 ghost (2)               
+56 games (4)                194 goodbye (2)             
+57 girl (4)                 195 gora (2)                
+58 great (4)                196 gonna (2)               
+59 guarantee (4)            197 grown (2)               
+60 here (4)                 198 health (2)              
+61 hold (4)                 199 head (2)                
+62 international (4)        200 hear (2)                
+63 loyal (4)                201 himself (2)             
+64 mean (4)                 202 http//tco/grgvprugk (2) 
+65 nearly (4)               203 hundred (2)             
+66 sexiest (4)              204 inch (2)                
+67 shit (4)                 205 inside (2)              
+68 smile (4)                206 instructions (2)        
+69 spend (4)                207 kazna (2)               
+70 sweets (4)               208 leaves (2)              
+71 thank (4)                209 long (2)                
+72 things (4)               210 lord (2)                
+73 tonight (4)              211 lose (2)                
+74 upset (4)                212 made (2)                
+75 wear (4)                 213 magazines (2)           
+76 well (4)                 214 man’s (2)               
+77 @msamberpriley (3)       215 matter (2)              
+78 @natasha_nicole (3)      216 meet (2)                
+79 @realflyboiquan (3)      217 message (2)             
+80 @zodiacfacts (3)         218 million (2)             
+81 allah (3)                219 momma's (2)             
+82 amazing (3)              220 months (2)              
+83 arrested (3)             221 nice (2)                
+84 behind (3)               222 past (2)                
+85 bless (3)                223 person (2)              
+86 casual (3)               224 pisces (2)              
+87 damn (3)                 225 police (2)              
+88 different (3)            226 power (2)               
+89 dont (3)                 227 pregnant (2)            
+90 dreams (3)               228 pretty (2)              
+91 even (3)                 229 proud (2)               
+92 expensive (3)            230 queen (2)               
+93 explain (3)              231 recognize (2)           
+94 face (3)                 232 recommended (2)         
+95 female (3)               233 recorded (2)            
+96 fighting (3)             234 road (2)                
+97 fire (3)                 235 scared (2)              
+98 give (3)                 236 secret (2)              
+99 gotta (3)                237 sent (2)                
+100 haha (3)                238 sexy (2)                
+101 herself (3)             239 shoots (2)              
+102 independent (3)         240 show (2)                
+103 inspire (3)             241 sickness (2)            
+104 instability (3)         242 single (2)              
+105 'jokes' (3)             243 sleep (2)               
+106 keep (3)                244 someone (2)             
+107 left (3)                245 somewhere (2)           
+108 look (3)                246 soul (2)                
+109 lost (3)                247 speaks (2)              
+110 mama's (3)              248 southeastern (2)        
+111 music (3)               249 spiritual (2)           
+112 named (3)               250 start (2)               
+113 photo (3)               251 strongest (2)           
+114 pray (3)                252 successful (2)          
+115 problem (3)             253 sure (2)                
+116 reason (3)              254 swear (2)               
+117 remarks (3)             255 tall (2)                
+118 seriously (3)           256 tears (2)               
+119 special (3)             257 thought (2)             
+120 stops (3)               258 throught (2)            
+121 such (3)                259 throwing (2)            
+122 talking (3)             260 tomorrow (2)            
+123 think (3)               261 tour (2)                
+124 time (3)                262 trust (2)               
+125 told (3)                263 type (2)                
+126 true (3)                264 upper (2)               
+127 turned (3)              265 video (2)               
+128 tweet (3)               266 waiting (2)             
+129 very (3)                267 weight (2)              
+130 vulnerable (3)          268 white (2)               
+131 wanna (3)               269 without (2)             
+132 worth (3)               270 woods (2)               
+133 wrong (3)               271 written (2)             
+134 -something (2)          272 young (2)               
+135 @itweetfacts (2)        273 yourself (2)            
+136 @jaibrooks (2)          274 zodiacpeople (2)        
+137 @jermhimselfish (2)     275 “@firstclassjames (2)   
+K-means iteration for 2 centroids. Mean distance to centroids: 0.994819872851
+K-means iteration for 2 centroids. Mean distance to centroids: 0.972434590956
+K-means iteration for 2 centroids. Mean distance to centroids: 0.965685829783
+K-means iteration for 2 centroids. Mean distance to centroids: 0.965685829783
+
+K-means iteration for 3 centroids. Mean distance to centroids: 0.987804926217
+K-means iteration for 3 centroids. Mean distance to centroids: 0.956052777312
+K-means iteration for 3 centroids. Mean distance to centroids: 0.957471567481
+
+K-means iteration for 4 centroids. Mean distance to centroids: 0.962350810717
+K-means iteration for 4 centroids. Mean distance to centroids: 0.921554644465
+K-means iteration for 4 centroids. Mean distance to centroids: 0.919545477143
+K-means iteration for 4 centroids. Mean distance to centroids: 0.919545477143
+
+K-means iteration for 5 centroids. Mean distance to centroids: 0.9681453431
+K-means iteration for 5 centroids. Mean distance to centroids: 0.931988514621
+K-means iteration for 5 centroids. Mean distance to centroids: 0.926651077993
+K-means iteration for 5 centroids. Mean distance to centroids: 0.925622719633
+K-means iteration for 5 centroids. Mean distance to centroids: 0.925622719633
 
 Best results for 4 clusters.
 
-Terms for cluster 0, (229 docs) mean centroid distance: 0.775627296042
-woman
+Terms for cluster 0, (156 docs) mean centroid distance: 0.970238095238
+loved
 
-Terms for cluster 1, (31 docs) mean centroid distance: 0.778285098764
-woman loved happy every mothers &amp; beautiful strong much world birthday through they're
+Terms for cluster 1, (50 docs) mean centroid distance: 0.868290082467
+happy woman's good life women's takes alive
 
-Terms for cluster 2, (10 docs) mean centroid distance: 0.729692264257
-woman loved knows down heart you're back real want breaking come cancer tonight well @zodiacfacts casual instability remarks vulnerable
+Terms for cluster 2, (37 docs) mean centroid distance: 0.85063601004
+happy mothers down watching &amp; black beautiful breaking @emmapaige @jo_age @megkatrose @mylesterrey @grace_brookes
 
-Terms for cluster 3, (4 docs) mean centroid distance: 0.61
-woman watching black heart arrested fire seriously time @justin_fenton blotter boyfriend discovers district fells food http//tco/grgvprugk inch made police recommended secret southeastern throwing upper
-
-twitter:women
-Word frequencies:
-0 women (168)                   84 @keeprich_ (2)               
-1 international (25)            85 @lilakeys (2)                
-2 happy (21)                    86 @momsandbrands (2)           
-3 ladies (15)                   87 @ndpnetworking (2)           
-4 dayhello (14)                 88 @thefunnysexist (2)          
-5 months💏 (14)                  89 @wf_women (2)                
-6 @justinbieber (12)            90 @zevia (2)                   
-7 real (11)                     91 abuse (2)                    
-8 want (11)                     92 alternative (2)              
-9 loving (10)                   93 amendment (2)                
-10 &amp; (9)                    94 asian (2)                    
-11 gemini (8)                   95 attack (2)                   
-12 great (8)                    96 attracted (2)                
-13 true (8)                     97 badminton (2)                
-14 word (8)                     98 before (2)                   
-15 beautiful (7)                99 best (2)                     
-16 complicated (7)              100 black (2)                   
-17 first (7)                    101 body (2)                    
-18 heaven (7)                   102 brimming (2)                
-19 met💑 (7)                     103 called (2)                  
-20 months💑 (7)                  104 causing (2)                 
-21 prefer (7)                   105 change (2)                  
-22 something (7)                106 clubs (2)                   
-23 years❤ (7)                   107 conference (2)              
-24 years👪 (7)                   108 confidence (2)              
-25 years👴👵 (7)                  109 cricket (2)                 
-26 years💏💍 (7)                  110 dagenham (2)                
-27 year👫💕 (7)                   111 dealt (2)                   
-28 @thedailygemini (6)          112 describe (2)                
-29 appear (6)                   113 destroy (2)                 
-30 basketball (6)               114 diabetics (2)               
-31 emotions (6)                 115 empowers (2)                
-32 hide (6)                     116 fail (2)                    
-33 life (6)                     117 fashion (2)                 
-34 nice (6)                     118 feminists (2)               
-35 outsiders (6)                119 figures (2)                 
-36 rights (6)                   120 giving (2)                  
-37 things (6)                   121 golf (2)                    
-38 @pantie_dropper (5)          122 half (2)                    
-39 come (5)                     123 hard (2)                    
-40 only (5)                     124 head (2)                    
-41 russiancultureandcuisine (5) 125 heart (2)                   
-42 term (5)                     126 help (2)                    
-43 amazing (4)                  127 husband (2)                 
-44 because (4)                  128 india (2)                   
-45 celebrations (4)             129 latest (2)                  
-46 derogatory (4)               130 leaf (2)                    
-47 good (4)                     131 many (2)                    
-48 here (4)                     132 meets (2)                   
-49 make (4)                     133 molest (2)                  
-50 originally (4)               134 momsandbrands (2)           
-51 re-tweets (4)                135 multi-pronged (2)           
-52 takes (4)                    136 name (2)                    
-53 tournament (4)               137 never (2)                   
-54 virgos (4)                   138 news (2)                    
-55 without (4)                  139 night (2)                   
-56 womensday (4)                140 palestine (2)               
-57 world (4)                    141 perverted (2)               
-58 “douchebag” (4)              142 play (2)                    
-59 @bornready_ (3)              143 prevent (2)                 
-60 @politicususa (3)            144 random (2)                  
-61 @uberfacts (3)               145 relationship (2)            
-62 appreciated (3)              146 seen (2)                    
-63 back (3)                     147 sends (2)                   
-64 become (3)                   148 sexy (2)                    
-65 inspire (3)                  149 shit (2)                    
-66 know (3)                     150 shot (2)                    
-67 made (3)                     151 shows (2)                   
-68 mothers (3)                  152 single (2)                  
-69 movie (3)                    153 stevia (2)                  
-70 national (3)                 154 still (2)                   
-71 need (3)                     155 strong (2)                  
-72 pregnant (3)                 156 sweetened (2)               
-73 russian (3)                  157 syria (2)                   
-74 stand (3)                    158 they're (2)                 
-75 talk (3)                     159 those (2)                   
-76 team (3)                     160 tonight (2)                 
-77 thanks (3)                   161 truly (2)                   
-78 thick (3)                    162 vote (2)                    
-79 think (3)                    163 welcome (2)                 
-80 video (3)                    164 white (2)                   
-81 work (3)                     165 you're (2)                  
-82 &lt; (2)                     166 young (2)                   
-83 @alekagutzmore (2)           167 😳“@purebeauti (2)           
-K-means iteration for 2 centroids. Mean distance to centroids: 0.805395584807
-K-means iteration for 2 centroids. Mean distance to centroids: 0.802879963174
-K-means iteration for 2 centroids. Mean distance to centroids: 0.802879963174
-
-K-means iteration for 3 centroids. Mean distance to centroids: 0.751126633363
-K-means iteration for 3 centroids. Mean distance to centroids: 0.73082891551
-K-means iteration for 3 centroids. Mean distance to centroids: 0.727914947125
-K-means iteration for 3 centroids. Mean distance to centroids: 0.727731940589
-K-means iteration for 3 centroids. Mean distance to centroids: 0.727731940589
-
-K-means iteration for 4 centroids. Mean distance to centroids: 0.78244000119
-K-means iteration for 4 centroids. Mean distance to centroids: 0.774078383991
-K-means iteration for 4 centroids. Mean distance to centroids: 0.764905964786
-K-means iteration for 4 centroids. Mean distance to centroids: 0.764730731798
-K-means iteration for 4 centroids. Mean distance to centroids: 0.764686168518
-K-means iteration for 4 centroids. Mean distance to centroids: 0.764686168518
-
-Best results for 3 clusters.
-
-Terms for cluster 0, (141 docs) mean centroid distance: 0.762663233142
-women
-
-Terms for cluster 1, (19 docs) mean centroid distance: 0.549416527745
-women international happy ladies dayhello @justinbieber word term derogatory originally “douchebag” @uberfacts
-
-Terms for cluster 2, (10 docs) mean centroid distance: 0.574
-women loving gemini true complicated prefer @thedailygemini appear emotions hide outsiders because without thanks @thefunnysexist brimming confidence destroy
-
-twitter:lady
-Word frequencies:
-0 lady (114)              39 stay (3)               78 lake (2)               
-1 gaga (8)                40 team (3)               79 little (2)             
-2 baby (6)                41 tonight (3)            80 lucky (2)              
-3 look (6)                42 &amp; (2)              81 lunch (2)              
-4 love (6)                43 @asian_ladyy (2)       82 meninas (2)            
-5 making (6)              44 @oh_bear (2)           83 meninos (2)            
-6 proud (5)               45 @orderinda_court (2)   84 mind (2)               
-7 state (5)               46 always (2)             85 mustangs (2)           
-8 start (5)               47 antlers (2)            86 need (2)               
-9 talking (5)             48 attitude (2)           87 nursery (2)            
-10 want (5)               49 atenção (2)            88 parce (2)              
-11 bitch (4)              50 bawl (2)               89 play (2)               
-12 came (4)               51 better (2)             90 ratchet (2)            
-13 friend (4)             52 blues (2)              91 riding (2)             
-14 fucking (4)            53 buffs (2)              92 scenes (2)             
-15 girl (4)               54 business (2)           93 sexy (2)               
-16 good (4)               55 call (2)               94 show (2)               
-17 know (4)               56 chamam (2)             95 shut (2)               
-18 much (4)               57 chatterley (2)         96 soooooo (2)            
-19 nice (4)               58 child (2)              97 still (2)              
-20 night (4)              59 class” (2)             98 such (2)               
-21 shit (4)               60 clutch (2)             99 super (2)              
-22 vous (4)               61 company (2)            100 support (2)           
-23 watching (4)           62 cougars (2)            101 sure (2)              
-24 back (3)               63 dance (2)              102 sweet (2)             
-25 basketball (3)         64 enough (2)             103 takes (2)             
-26 congrats (3)           65 escolhem (2)           104 think (2)             
-27 crazy (3)              66 está (2)               105 thanks (2)            
-28 first (3)              67 feito (2)              106 tomorrow (2)          
-29 gives (3)              68 final (2)              107 tournament (2)        
-30 great (3)              69 flavor (2)             108 vestida (2)           
-31 imagine (3)            70 game (2)               109 voice (2)             
-32 movie (3)              71 gonna (2)              110 wait (2)              
-33 next (3)               72 hair (2)               111 whatoncedoesright (2) 
-34 only (3)               73 hell (2)               112 woman (2)             
-35 pretty (3)             74 hide (2)               113 wonder (2)            
-36 season (3)             75 hoptown (2)            114 would've (2)          
-37 snow (3)               76 house (2)              115 young (2)             
-38 someone (3)            77 indians (2)            116 👏🎉😊💘🏆 (2)             
-K-means iteration for 2 centroids. Mean distance to centroids: 0.778095601322
-K-means iteration for 2 centroids. Mean distance to centroids: 0.776442918891
-K-means iteration for 2 centroids. Mean distance to centroids: 0.776442918891
-
-K-means iteration for 3 centroids. Mean distance to centroids: 0.772396082179
-K-means iteration for 3 centroids. Mean distance to centroids: 0.769079250058
-K-means iteration for 3 centroids. Mean distance to centroids: 0.765089834174
-K-means iteration for 3 centroids. Mean distance to centroids: 0.763658973882
-K-means iteration for 3 centroids. Mean distance to centroids: 0.763550005809
-K-means iteration for 3 centroids. Mean distance to centroids: 0.763550005809
-
-K-means iteration for 4 centroids. Mean distance to centroids: 0.769956291695
-K-means iteration for 4 centroids. Mean distance to centroids: 0.766977225673
-K-means iteration for 4 centroids. Mean distance to centroids: 0.760083038139
-K-means iteration for 4 centroids. Mean distance to centroids: 0.760702283434
-
-K-means iteration for 5 centroids. Mean distance to centroids: 0.751984126984
-K-means iteration for 5 centroids. Mean distance to centroids: 0.750627207405
-K-means iteration for 5 centroids. Mean distance to centroids: 0.747477282294
-K-means iteration for 5 centroids. Mean distance to centroids: 0.747477282294
-
-K-means iteration for 6 centroids. Mean distance to centroids: 0.762002530481
-K-means iteration for 6 centroids. Mean distance to centroids: 0.759057971014
-K-means iteration for 6 centroids. Mean distance to centroids: 0.752930208442
-K-means iteration for 6 centroids. Mean distance to centroids: 0.752307082889
-K-means iteration for 6 centroids. Mean distance to centroids: 0.752051328413
-K-means iteration for 6 centroids. Mean distance to centroids: 0.752051328413
-
-Best results for 5 clusters.
-
-Terms for cluster 0, (114 docs) mean centroid distance: 0.755722639933
-lady
-
-Terms for cluster 1, (9 docs) mean centroid distance: 0.823529411765
-lady want bitch fucking know watching imagine only someone better child lunch ratchet riding support would've
-
-Terms for cluster 2, (8 docs) mean centroid distance: 0.802631578947
-lady baby look bitch came friend good nice night first stay better clutch company hair house need woman
-
-Terms for cluster 3, (5 docs) mean centroid distance: 0.6
-lady baby making much nice imagine pretty snow bawl lake nursery scenes sexy such super whatoncedoesright
-
-Terms for cluster 4, (2 docs) mean centroid distance: 0.0833333333333
-lady gaga @oh_bear atenção chamam escolhem feito meninas meninos show vestida
+Terms for cluster 3, (31 docs) mean centroid distance: 0.829363915654
+needs @wethinkforgirls back make want right
 

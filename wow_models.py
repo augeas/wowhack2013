@@ -71,16 +71,16 @@ def getAndPushClusters(source,minCount=1,term=False):
 		meta = {'term':term}
 	else:
 		meta = False
-	corp = docCorpus(getDocs(source,meta))
+	corp = docCorpus(getDocs(source,meta),term)
 	counter = WordCount(corp,minCount)
 	counter.map_reduce()
 	corp.prettyTable()
 	doKmeans(corp,False)
 	pushClusters(corp,source)
 
-#getAndPushClusters('twitter',term='lady')
+getAndPushClusters('twitter',term='woman')
 
 #pushTweets('lady',1000)
 
-
+pushTweets('meantweets',1000)
 

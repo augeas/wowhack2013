@@ -79,7 +79,7 @@ class docCluster(object):
 # A set of docs, the clusters they belong to
 class docCorpus(object):
   
-	def __init__(self,items):
+	def __init__(self,items,exclude=False):
 				
 		self.docs = dict([ ( item[0],  doc(item[1],item[0]))  for item in items ])
 				
@@ -88,6 +88,8 @@ class docCorpus(object):
 		self.clusterSets = [] # Lists of clusters of increasing size.
 		self.meanDistances = [1.0] # Mean centroid distance to each tweet for all cluster in a set.
 		
+		if exclude:
+			stopWords.append(exclude)
 	
 	# Display all the docs.
 	def show(self):
@@ -163,7 +165,7 @@ class WordCount(MapReduce):
 		for word in words:
 			wrd = stem(word)
 			
-			if len(wrd) > 3 and wrd not in stopWords:
+			if len(wrd) > 3 and word not in stopWords:
 				output.append((wrd, (1,key,word) ))
 		return output
 	

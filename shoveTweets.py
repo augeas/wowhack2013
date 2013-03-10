@@ -15,8 +15,11 @@ def getTweets(term,count):
 	searching = True	
 
 	while searching and len(tweets) < count:
-		dudTweets = 0	
-		newTweets = api.GetSearch(term, page=page, per_page=rpp)
+		dudTweets = 0
+		try:
+			newTweets = api.GetSearch(term, page=page, per_page=rpp)
+		except:
+			break
 		for tweet in newTweets:
 			if tweet.id not in ids:
 				print tweet.text
@@ -36,6 +39,7 @@ def getTweets(term,count):
 			if page > 1:		
 				page -= 1
 
+	print "Found "+str(len(tweets))+' tweets...'
 	return tweets
 	
 #print getTweets('female',50)
